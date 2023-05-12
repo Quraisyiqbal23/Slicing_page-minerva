@@ -144,15 +144,18 @@ form input[type=submit] {
 
 .price-item {
     margin-right: 60px;
+    margin-left: 50px;
 
 }
 
 .price-item h3 {
-    font-size: 35px;
+    font-size: 40px;
+    margin-bottom: 16px;
 }
 
 .price-item h2 {
     font-size: 45px;
+    margin-bottom: 16px;
 }
 
 .price-hour {
@@ -168,11 +171,43 @@ form input[type=submit] {
 
 .price-item h4 {
     font-size: 20px;
+    margin-bottom: 15px;
 }
 
-.price-item form {
+.price-item div form {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    gap: 10px;
+}
+
+.check-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: first baseline;
+}
+
+.check-text div h5 {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.check-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    margin-bottom: 30px;
+}
+
+button {
+    width: 250px;
+    height: 50px;
+    border-radius: 12px;
+    border: none;
+    background: #0080FF;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
 }
