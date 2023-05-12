@@ -9,8 +9,8 @@ body {
 
 .container {
     background: #f0f0f0;
-    width: 100%;
-    height: 100%;
+    width: 1152px;
+    height: 3196;
 }
 
 header {
@@ -45,8 +45,8 @@ nav a {
 }
 
 .main-container {
-    width: 80%;
-    height: 50vh;
+    width: 929px;
+    height: 491px;
     background: white;
     margin: 75px auto;
     border-radius: 30px;
@@ -114,8 +114,8 @@ form input[type=submit] {
 
 
 .body-image {
-    width: 600px;
-    height: 650px;
+    width: 512px;
+    height: 491px;
     overflow: hidden;
     object-fit: contain;
     display: block;
@@ -130,8 +130,8 @@ form input[type=submit] {
 }
 
 .price-container {
-    width: 80%;
-    height: 50vh;
+    width: 929px;
+    height: 491px;
     background: white;
     margin: 75px auto;
     border-radius: 30px;
